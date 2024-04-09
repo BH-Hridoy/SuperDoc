@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperDoc - Home</title>
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon"> -->
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Slick Slider Css -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <!-- Css File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive Css File -->
+    <link rel="stylesheet" href="css/home-responsive.css">
+
+</head>
+<body>
+    <!-- HEADER SECTION START -->
+
+    <header>
+        <div class="container">
+            <!----- Nav Start ---->
+            <nav>
+                <div class="logo">
+                    <a href="#"><img src="images/logo.png" alt="SuperDoc"></a>
+                </div>
+                <div class="nav-items">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about-us.html">ABOUT US</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                        <li><a href="#">List your Practice</a></li>
+                        <li><button>Login/Sign up</button></li>
+                    </ul>
+                </div>
+                <button class="hamburger" onclick="openMenu()"><i class="fa-solid fa-bars"></i></button>
+            </nav>
+        </div>
+            <!-- Mobile nav start -->
+            <div class="mobile-nav" id="navbar" onclick="closeMenu()">
+                <div class="nav-bg">
+                    <div class="m-container">
+                        <div class="logo">
+                            <a href="#"><img src="images/logo.png" alt="SuperDoc"></a>
+                        </div>
+                        <div class="cross-btn" onclick="closeMenu()"><i class="fa-solid fa-xmark"></i></div>
+                        <div class="nav-items">
+                            <ul>
+                                <li><a href="index.html" onclick="closeMenu()">HOME</a></li>
+                                <li><a href="about-us.html" onclick="closeMenu()">ABOUT US</a></li>
+                                <li><a href="#" onclick="closeMenu()">CONTACT US</a></li>
+                                <li><a href="#" onclick="closeMenu()">List your Practice</a></li>
+                                <li><button>Login/Sign up</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Mobile nav end -->
+
+            <!---- Nav End ---->
+
+            <!-- Hero Section Start -->
+        <div class="container">
+            <div class="hero">
+                <h1>Find local doctors <br>
+                    who take your insurance</h1>
+                <div class="search-filter">
+                    <div class="search-input"><div class="input-icon"><img src="images/icons/magnifying-glass (1) 1.png" alt=""></div><input type="text" placeholder="condition, procedure, Doctor..."></div>
+                    <div class="search-input"><img src="images/icons/place 1.png" alt=""><div class="input-icon"></div><input type="text" placeholder="City, state, or zip code "></div>
+                    <div class="search-input"><div class="input-icon"><img src="images/icons/calendar (1) 1.png" alt=""></div><input type="text" placeholder="Today"></div>
+                    <div class="search-input"><div class="input-icon"><img src="images/icons/insurance (1) 1.png" alt=""></div><input type="text" placeholder="Insurance carrier and plan "></div>
+                    <button><img src="images/icons/magnifying-glass (2) 1.png" alt=""></button>
+                </div>
+            </div>
+            <!-- Hero Section Start -->
+        </div>
+    </header>
+
+    <!-- HEADER SECTION END -->
+
+
+
+    <!-- TEAM SECTION START -->
+
+    <section class="team">
+        <div class="container">
+
+            <div class="doctors-grid-wrapper">
+
+                <div class="text-box">
+                    <h1>Top-rated primary 
+                        care doctors </h1>
+                    <p>99% of patients gave theseprimary care doctors
+                        5 stars</p>
+                    <a href="#">See recommended Doctors </a>
+                </div>
+
+                <div class="doctor-slider-wrapper">
+
+                    <div class="slider-card">
+                        <div class="avatar">
+                            <img src="images/doctors/1.jpg" alt="">
+                            <span><i class="fa-regular fa-star"></i> Highly recommended</span>
+                        </div>
+                        <div class="profile">
+                            <h3>Balestra DJ.</h3>
+                            <span>Primary care Doctor </span>
+                            <span>Los angels CA</span>
+                            <span><i class="fa-solid fa-star"></i>4.99  (150 reviews)</span>
+                            <p>Lorem ipsum is placeholder text commonly used in the 
+                                graphic, print, and publishing industries for previewing 
+                                layouts and visual mockups</p>
+                        </div>
+                    </div>
+
+                    <div class="slider-card">
+                        <div class="avatar">
+                            <img src="images/doctors/2.jpg" alt="">
+                            <span><i class="fa-regular fa-star"></i> Highly recommended</span>
+                        </div>
+                        <div class="profile">
+                            <h3>Drs. Toothman,</h3>
+                            <span>Primary care Doctor </span>
+                            <span>Los angels CA</span>
+                            <span><i class="fa-solid fa-star"></i>4.99  (70 reviews)</span>
+                            <p>Lorem ipsum is placeholder text commonly used in the 
+                                graphic, print, and publishing industries for previewing 
+                                layouts and visual mockups</p>
+                        </div>
+                    </div>
+
+
+                     <div class="slider-card">
+                        <div class="avatar">
+                            <img src="images/doctors/3.jpg" alt="">
+                            <span><i class="fa-regular fa-star"></i> Highly recommended</span>
+                        </div>
+                        <div class="profile">
+                            <h3>Balestra DJ.</h3>
+                            <span>Primary care Doctor </span>
+                            <span>Los angels CA</span>
+                            <span><i class="fa-solid fa-star"></i>4.99  (150 reviews)</span>
+                            <p>Lorem ipsum is placeholder text commonly used in the 
+                                graphic, print, and publishing industries for previewing 
+                                layouts and visual mockups</p>
+                        </div>
+                    </div>
+
+                    <div class="slider-card">
+                        <div class="avatar">
+                            <img src="images/doctors/4.jpg" alt="">
+                            <span><i class="fa-regular fa-star"></i> Highly recommended</span>
+                        </div>
+                        <div class="profile">
+                            <h3>Drs. Toothman,</h3>
+                            <span>Primary care Doctor </span>
+                            <span>Los angels CA</span>
+                            <span><i class="fa-solid fa-star"></i>4.99  (70 reviews)</span>
+                            <p>Lorem ipsum is placeholder text commonly used in the 
+                                graphic, print, and publishing industries for previewing 
+                                layouts and visual mockups</p>
+                        </div>
+                    </div> 
+
+                </div>
+
+                
+            </div>
+            <div class="btn-container">
+                <button class="team-slider-btn prev-btn-1"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="team-slider-btn next-btn-1"><i class="fa-solid fa-chevron-right"></i></button>
+
+            </div>
+
+
+            <!-- Dental Section -->
+            <div class="doctors-grid-wrapper doctors-grid-wrapper-2">
+
+                <div class="text-box">
+                    <h1>Dentistis with the 
+                        shortest wait time  </h1>
+                    <p>95% 0f patients spent less than 30 minutesin the 
+                        waitting room for theseDentists.</p>
+                    <a href="#">See more dentists with excellent wait time  </a>
+                </div>
+
+                <div class="doctor-slider-wrapper-2">
+
+                    <div class="slider-card">
+                        <div class="avatar">
+                            <img src="images/doctors/3.jpg" alt="">
+                            <span><i class="fa-regular fa-star"></i> Highly recommended</span>
+                        </div>
+                        <div class="profile">
+                            <h3>Dr Fillmore, DDS</h3>
+                            <span> Dentist </span>
+                            <span>Los angels CA</span>
+                            <span><i class="fa-solid fa-star"></i>4.99  (68 reviews)</span>
+                            <p>Lorem ipsum is placeholder text commonly used in the 
+                                graphic, print, and publishing industries for previewing 
+                                layouts and visual mockups</p>
+                        </div>
+                    </div>
+
+                    <div class="slider-card">
+                        <div class="avatar">
+                            <img src="images/doctors/4.jpg" alt="">
+                            <span><i class="fa-regular fa-star"></i> Highly recommended</span>
+                        </div>
+                        <div class="profile">
+                            <h3>Dr Swallow,DDS</h3>
+                            <span>Dentist </span>
+                            <span>Los angels CA</span>
+                            <span><i class="fa-solid fa-star"></i>4.99  (75 reviews)</span>
+                            <p>Lorem ipsum is placeholder text commonly used in the 
+                                graphic, print, and publishing industries for previewing 
+                                layouts and visual mockups</p>
+                        </div>
+                    </div>
+
+
+                     <div class="slider-card">
+                        <div class="avatar">
+                            <img src="images/doctors/3.jpg" alt="">
+                            <span><i class="fa-regular fa-star"></i> Highly recommended</span>
+                        </div>
+                        <div class="profile">
+                            <h3>Balestra DJ.</h3>
+                            <span>Primary care Doctor </span>
+                            <span>Los angels CA</span>
+                            <span><i class="fa-solid fa-star"></i>4.99  (150 reviews)</span>
+                            <p>Lorem ipsum is placeholder text commonly used in the 
+                                graphic, print, and publishing industries for previewing 
+                                layouts and visual mockups</p>
+                        </div>
+                    </div>
+
+                    <div class="slider-card">
+                        <div class="avatar">
+                            <img src="images/doctors/4.jpg" alt="">
+                            <span><i class="fa-regular fa-star"></i> Highly recommended</span>
+                        </div>
+                        <div class="profile">
+                            <h3>Drs. Toothman,</h3>
+                            <span>Primary care Doctor </span>
+                            <span>Los angels CA</span>
+                            <span><i class="fa-solid fa-star"></i>4.99  (70 reviews)</span>
+                            <p>Lorem ipsum is placeholder text commonly used in the 
+                                graphic, print, and publishing industries for previewing 
+                                layouts and visual mockups</p>
+                        </div>
+                    </div> 
+
+                </div>
+
+                
+            </div>
+            <div class="btn-container">
+                <button class="team-slider-btn prev-btn-2"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="team-slider-btn next-btn-2"><i class="fa-solid fa-chevron-right"></i></button>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- TEAM SECTION END -->
+
+
+
+    <!-- SPECIALTIES SECTION START -->
+
+    <section class="specialties">
+        <div class="container">
+            <h1>Our Medical Specialties</h1>
+
+            <div class="special-container">
+
+                <button class="sp-slider-btn sp-slide-1"><i class="fa-solid fa-chevron-left"></i></button>
+
+                <div class="specialties-slider-wrapper">
+
+                    <div class="slider-item">
+                        <div class="img-box">
+                            <img src="images/icons/sp-1.png" alt="">
+                        </div>
+                        <p>Dentists</p>
+                    </div>
+                    <div class="slider-item">
+                        <div class="img-box">
+                            <img src="images/icons/sp-2.png" alt="">
+                        </div>
+                        <p>Dermatologists</p>
+                    </div>
+                    <div class="slider-item">
+                        <div class="img-box">
+                            <img src="images/icons/sp-3.png" alt="">
+                        </div>
+                        <p>Gynecologist</p>
+                    </div>
+                    <div class="slider-item">
+                        <div class="img-box">
+                            <img src="images/icons/sp-4.png" alt="">
+                        </div>
+                        <p>Pediatricians</p>
+                    </div>
+                    <div class="slider-item">
+                        <div class="img-box">
+                            <img src="images/icons/sp-5.png" alt="">
+                        </div>
+                        <p>Optometrists</p>
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="img-box">
+                            <img src="images/icons/sp-1.png" alt="">
+                        </div>
+                        <p>Dentists</p>
+                    </div>
+                    <div class="slider-item">
+                        <div class="img-box">
+                            <img src="images/icons/sp-2.png" alt="">
+                        </div>
+                        <p>Dermatologists</p>
+                    </div>
+
+                </div>
+
+                <button class="sp-slider-btn sp-slide-2"><i class="fa-solid fa-chevron-right"></i></button>
+
+
+                
+            </div>
+            <div class="slider-dots"></div>
+        </div>
+    </section>
+
+    <!-- SPECIALTIES SECTION END -->
+
+
+    <!-- APP SECTION START -->
+
+    <section class="app">
+        <div class="container">
+            <div class="left">
+                <h1>Thousands of providers.
+                    One App</h1>
+                <p>
+                    The Superdoc app is the quickest easiest
+                    way to book and keep track of your appointments.
+                </p>
+                <span>
+                    Enter your phone numberand we’ll send a download link 
+                </span>
+                <div class="submit-number">
+                    <input type="text" placeholder="Enter your Number ">
+                    <button>
+                        Get the App
+                    </button>
+                </div>
+                <div class="app-store">
+                    <a href="#"><img src="images/icons/play-store.png" alt=""></a>
+                    <a href="#"><img src="images/icons/app-store.png" alt=""></a>
+                </div>
+            </div>
+            <div class="right">
+                <img src="images/Apps-bg-alt.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- APP SECTION END -->
+
+
+    <!-- HEALTHCARE SECTION START -->
+
+    <section class="healthcare">
+        <div class="container">
+            <h1>Superdoc is Healthcare, but Very Easy </h1>
+            <div class="healthcare-grid-wrapper">
+
+                <div class="healthcare-grid-card">
+                    <div class="network">
+                        <p><img src="images/icons/shield.png" alt=""><span>In-network </span>Primery care Doctor </p>
+                    </div>
+                    <div class="doctor">
+                        <img src="images/doctors/hc-1.jpg" alt="">
+                        <div class="doctor-info">
+                            <p>Dr Fillmore, DDS</p>
+                        <span><img src="images/icons/shield.png" alt="">In-network </span>
+                        </div>
+                    </div>
+                    <div class="doctor">
+                        <img src="images/doctors/hc-2.jpg" alt="">
+                        <div class="doctor-info">
+                            <p>Dr Azad, DDS</p>
+                        <span><img src="images/icons/shield.png" alt="">In-network </span>
+                        </div>
+                    </div>
+                    <div class="doctor">
+                        <img src="images/doctors/hc-3.jpg" alt="">
+                        <div class="doctor-info">
+                            <p>Dr Rubel, DDS</p>
+                        <span><img src="images/icons/shield.png" alt="">In-network </span>
+                        </div>
+                    </div>
+                    <div class="browse">
+                        <p>    Browse providers who 
+                            take your insurence   </p>
+                            <a href="#">See Specialties</a>
+                    </div>
+                </div>
+
+                <div class="healthcare-grid-card card-2">
+                    <div class="doctor-profile">
+                        <img src="images/doctors/hc-1.jpg" alt="">
+                        <p>Dr Fillmore, DDS</p>
+                        <span class="stars"><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>(4.99)</span>
+                    </div>
+                    <div class="review">
+                        <span class="stars"><i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>(5.00)</span>
+                            <p>Lorem ipsum is placeholder text commonly used 
+                                in the graphic, print, and publishing industries for 
+                                previewing layouts and visual mockups.</p>
+                    </div>
+                    <div class="rating">
+                        <div class="rate-for">
+                            <p>Overall</p>
+                            <span class="stars"><i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <div class="rate-for">
+                            <p>Treatment</p>
+                            <span class="stars"><i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <div class="rate-for">
+                            <p>Wait time </p>
+                            <span class="stars"><i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i></span>
+                        </div>
+                    </div>
+                    <div class="browse">
+                        <p>  Read reviews from
+                            users </p>
+                            <a href="#">See Providers </a>
+                    </div>
+                </div>
+
+                <div class="healthcare-grid-card card-2">
+                    <div class="doctor-profile">
+                        <img src="images/doctors/hc-1.jpg" alt="">
+                        <p>Appointment Booked! </p>
+                    </div>
+                    
+                    <div class="appointment">
+                        <img src="images/icons/scheduling.png" alt="">
+                        <span>Your Scheduled with</span>
+                        <span class="doctor">Dr Fillmore, DDS </span>
+                        <span>on Thesday,feb 0.at12.am</span>
+                    </div>
+
+                    <div class="browse">
+                        <p>  Book an Appointment
+                            today, online  </p>
+                            <a href="#">See Availability</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- HEALTHCARE SECTION END -->
+
+
+    <!-- PROVIDER SECTION START -->
+
+    <section class="provider">
+        <div class="container">
+            <div class="provider-grid-container">
+                <div class="left">
+                    <img src="images/provider.jpg" alt="">
+                </div>
+                <div class="right">
+                    <span>Superdoc for private practices </span>
+                    <h1>Are you a provider interested in 
+                        reaching new patients?</h1>
+                    <p><i class="fa-regular fa-circle-check"></i><span>Reach patients in your area looking for a new provider</span></p>
+                    <p><i class="fa-regular fa-circle-check"></i><span>Fill last-minute openings in your schedule</span></p>
+                    <p><i class="fa-regular fa-circle-check"></i><span>Strengthen your onine reputation with verified reviews </span></p>
+
+                    <a href="#">List your practice on superdoc</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROVIDER SECTION END -->
+
+
+    <!-- FIND DOCTOR SECTION START -->
+
+    <section class="find-doctor">
+        <div class="container">
+            <h1>Find Doctors and dentists by city </h1>
+            <div class="city-grid-wrapper">
+                <div class="city-card">
+
+                    <div class="select">
+                        <select name="" id="">
+                            <option value="New York City">New York City</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>                          
+                        </select>
+                        <select name="" id="">
+                            
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>                          
+                        </select>
+                        <select name="" id="">
+                            
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>                          
+                        </select>
+                        <select name="" id="">
+                            
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>                          
+                        </select>
+                        <select name="" id="">
+                            
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>                          
+                        </select>
+                    </div>
+                </div>
+                <div class="city-card">
+
+                    <div class="select">
+                        <select name="" id="">
+                            <option value="New York City">New York City</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>                          
+                        </select>
+                        <select name="" id="">
+                            
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>                          
+                        </select>
+                        <select name="" id="">
+                            
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>                          
+                        </select>
+                        <select name="" id="">
+                            
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>                          
+                        </select>
+                        <select name="" id="">
+                            
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>                          
+                        </select>
+                    </div>
+                </div>
+                <div class="city-card">
+
+                    <div class="select">
+                        <select name="" id="">
+                            <option value="New York City">New York City</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>                          
+                        </select>
+                        <select name="" id="">
+                            
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>                          
+                        </select>
+                        <select name="" id="">
+                            
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>                          
+                        </select>
+                        <select name="" id="">
+                            
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>                          
+                        </select>
+                        <select name="" id="">
+                            
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>
+                            <option value="City Name">City Name</option>                          
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FIND DOCTOR SECTION END -->
+
+
+    <!-- FOOTER SECTION START -->
+
+    <footer>
+        <div class="container">
+            <div class="main-footer footer-grid-wrapper">
+                <div class="footer-grid-card">
+                    <p class="title">
+                        SuperDoc Sri lanka - No More Queues
+                    </p>
+                    <p>Superdoc is a Sri lankan portal that allows 
+                        you to search for your favorite local GP.</p>
+                    <div class="social">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                        </ul>
+                        
+                        
+                        
+                    </div>
+                </div>
+
+                <div class="footer-grid-card">
+                    <p class="title">
+                        Cities
+                    </p>
+                    <div class="city-links">
+                        <a href="#">Nugegoda</a>
+                        <a href="#">Dehiwala</a>
+                        <a href="#">Pitakotte</a>
+                        <a href="#">Malabe</a>
+                        <a href="#" class="more">More</a>
+                    </div>
+                    
+                </div>
+                <div class="footer-grid-card">
+                    <p class="title">
+                        Specialties
+                    </p>
+                    <div class="city-links">
+                        <a href="#">Dentists</a>
+                        <a href="#">Dermatologists</a>
+                        <a href="#">Optometrists</a>
+                        <a href="#">Pediatricians</a>
+                        <a href="#" class="more">More</a>
+                    </div>
+                    
+                </div>
+                <div class="footer-grid-card last-card">
+                    <p>
+                        Are you a top doctor or health service 
+                    </p>
+                    <p>List your practice onSuperdoc</p>
+                    <p>Get The Superdoc app </p>
+                    <div class="apps">
+                        <a href="#"><img src="images/icons/play-store.png" alt=""></a>
+                        <a href="#"><img src="images/icons/app-store.png" alt=""></a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+    <section class="copyright">
+        <div class="container">
+            <p>© 2022 Superdoc by Accuretta Systems (Pvt) Ltd. All Rights reserved.</p>
+            <p><a href="#">About Us</a> /    <a href="#">Blog</a>        /          <a href="#">Contact</a></p>
+        </div>
+    </section>
+    <!-- FOOTER SECTION END -->
+
+
+    <!-- ======== Js File ======== -->
+    <!-- Jquery Cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Slick Slider Js -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>		
+    <!-- Custom Js File -->
+    <script src="js/main.js"></script>
+</body>
+</html>

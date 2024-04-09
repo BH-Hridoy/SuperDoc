@@ -1,0 +1,15 @@
+colors ->
+	
+	--light: #C7F0FC;
+	--middle-blue: #5BC2E0;
+	--dark: #104154;
+	--blue: #396CF0;
+
+Fonts ->
+	Roboto -> 600
+	Roboto -> 400
+	Roboto -> 700
+	Roboto -> 500
+
+
+

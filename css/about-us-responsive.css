@@ -1,0 +1,72 @@
+@media screen and (max-width:1200px){
+
+}
+
+
+
+@media screen and (max-width:1023px){
+    .about-grid-wrapper{
+        grid-template-columns: 1fr;
+    }
+    .about-grid-wrapper img{
+        width: 70%;
+    }
+    .about-grid-wrapper .image{
+        text-align: center;
+    }
+}
+
+
+
+
+@media screen and (max-width:767px){
+    .team-grid-wrapper{
+        grid-template-columns: 1fr;
+        
+    }
+    .team-grid-wrapper .team-grid-card{
+        margin-bottom: 3rem;
+    }
+    .promise-box{
+        width: 90%;
+    }
+    .promise-box .text-box{
+        padding: 1.5rem;
+    }
+    .hero h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .hero p {
+        font-size: 27px;
+        line-height: 36px;
+    }
+}
+
+
+
+@media screen and (max-width:479px){
+    .hero{
+        padding: 6rem 0;
+    }
+    .about-grid-wrapper h2{
+        font-size: 38px;
+    }
+    .section-heading{
+        font-size: 35px;
+    }
+    section.team p{
+        padding: 30px 23px;
+        font-size:18px ;
+    }
+    .investor-grid-wrapper{
+        margin: 3rem;
+    }
+    .promise-box .text-box {
+        padding: 0.5rem;
+      }
+      .promise-box p, .promise-box .text-box .text i {
+        font-size: 18px;
+        line-height: 25px;
+      }
+}

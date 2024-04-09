@@ -1,0 +1,231 @@
+@media screen and (max-width:1200px){
+    .hero h1{
+        font-size: 65px;
+        line-height: 79px;
+    }
+    .hero .search-filter .search-input input{
+        width: 85px;
+    }
+    .hero .search-filter .search-input{
+        height: 65px;
+    }
+    .hero .search-filter button{
+        padding: 18px;
+    }
+    .hero{
+        padding: 4rem 0;
+    }
+    section.team .text-box h1{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    section.team .doctor-slider-wrapper .avatar span, section.team .doctor-slider-wrapper-2 .avatar span{
+        font-size: 14px;
+    }
+    section.app .container h1{
+        font-size: 55px;
+    }
+    section.app .container p{
+        font-size: 24px;
+    }
+    section.app .container span{
+        font-size: 18px;
+    }
+    .submit-number input{
+        width: 280px;
+    }
+    section.healthcare h1{
+        font-size: 55px;
+    }
+    .healthcare-grid-wrapper{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    section.provider .provider-grid-container h1{
+        font-size: 42px;
+    }
+    section.provider .provider-grid-container span,
+    section.provider .provider-grid-container p{
+        font-size: 18px;
+    }
+    section.provider .provider-grid-container a{
+        font-size: 16px;
+    }
+    section.find-doctor h1{
+        font-size: 55px;
+    }
+    .city-grid-wrapper{
+        grid-gap: 2rem;
+    }
+}
+
+
+
+@media screen and (max-width:1023px){
+    .hero .search-filter{
+        display: block;
+        text-align: center;
+    }
+    .hero .search-filter .search-input input{
+        width: 80%;
+        
+    }
+    .hero .search-filter button{
+        width: 50%;
+        margin-top: 1rem;
+        border-radius: 8px;
+    }
+    .hero .search-filter .search-input::after{
+        width: 0;
+    }
+    section.team .text-box{
+        width: 38%;
+    }
+    section.team .doctor-slider-wrapper, section.team .doctor-slider-wrapper-2{
+        width: 58%;
+    }
+    .sp-slide-1{
+        left: -3rem;
+    }
+    .sp-slide-2{
+        right: -3rem;
+    }
+    section.app .container{
+        grid-template-columns: 1fr;
+    }
+    section.app .container .right img{
+        width: 50%;
+    }
+    section.app .container .right{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    section.provider .provider-grid-container{
+        grid-template-columns: 1fr;
+    }
+    section.provider .provider-grid-container img{
+        width: 65%;
+    }
+    section.provider .provider-grid-container .left{
+        text-align: center;
+    }
+    section.find-doctor h1{
+        font-size: 45px;
+    }
+    .city-grid-wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+@media screen and (max-width:767px){
+    .doctors-grid-wrapper{
+        display: block;
+    }
+    section.team .text-box{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    section.team .doctor-slider-wrapper, section.team .doctor-slider-wrapper-2{
+        width: 100%;
+    }
+    .btn-container{
+        text-align: center;
+    }
+    .submit-number input{
+        width: 235px;
+    }
+    .app-store{
+        text-align: center;
+    }
+    section.app .container .right img{
+        width: 70%;
+    }
+    section.healthcare h1 {
+        font-size: 40px;
+      }
+      .healthcare-grid-wrapper{
+          grid-template-columns: 1fr;
+      }
+      .network p{
+          justify-content: center;
+      }
+      .doctor{
+          justify-content: center;
+      }
+      section.provider .provider-grid-container img{
+          width: 75%;
+      }
+      section.provider .provider-grid-container h1{
+          font-size: 38px;
+      }
+      section.provider .provider-grid-container span, section.provider .provider-grid-container p{
+          font-size: 16px;
+      }
+      .city-grid-wrapper{
+          grid-template-columns: 1fr;
+      }
+}
+
+@media screen and (max-width:479px){
+    .hero h1 {
+        font-size: 36px;
+        line-height: 44px;
+      }
+      section.team .text-box h1 {
+        font-size: 40px;
+        line-height: 50px;
+      }
+      section.team .text-box p{
+          font-size: 18px;
+      }
+      section.team .text-box a{
+          font-size: 18px;
+      }
+      section.team .doctor-slider-wrapper .avatar, section.team .doctor-slider-wrapper-2 .avatar{
+          flex-direction: column;
+          align-items: center;
+      }
+      section.team .doctor-slider-wrapper .avatar span, section.team .doctor-slider-wrapper-2 .avatar span{
+          margin-top: 1rem;
+      }
+      section.team .doctor-slider-wrapper .profile, section.team .doctor-slider-wrapper-2 .profile{
+          padding: 1rem;
+      }
+      .slider-dots .slick-dots li button{
+          margin: 0 2px;
+      }
+      .sp-slider-btn{
+          display: none;
+      }
+      .app-store{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+
+      }
+      .app-store img{
+          max-width: 100%;
+      }
+      section.app .container h1 {
+        font-size: 42px;
+      }
+      section.app .container p{
+          font-size: 18px;
+      }
+      section.app .container span{
+          font-size: 16px;
+      }
+      section.find-doctor h1{
+          font-size: 40px;
+      }
+      .submit-number button{
+          width: 100%;
+      }
+      .submit-number input{
+          width: 100%;
+      }
+}
